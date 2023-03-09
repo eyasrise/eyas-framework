@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/eyas-framework-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-dependencies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-mybatis-plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-rpc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eyas-framework-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

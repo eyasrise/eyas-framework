@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/eyas-framework.iml" filepath="$PROJECT_DIR$/.idea/eyas-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-cache/eyas-framework-cache.iml" filepath="$PROJECT_DIR$/eyas-framework-cache/eyas-framework-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-common/eyas-framework-common.iml" filepath="$PROJECT_DIR$/eyas-framework-common/eyas-framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-config/eyas-framework-config.iml" filepath="$PROJECT_DIR$/eyas-framework-config/eyas-framework-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-dependencies/eyas-framework-dependencies.iml" filepath="$PROJECT_DIR$/eyas-framework-dependencies/eyas-framework-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-job/eyas-framework-job.iml" filepath="$PROJECT_DIR$/eyas-framework-job/eyas-framework-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-mq/eyas-framework-mq.iml" filepath="$PROJECT_DIR$/eyas-framework-mq/eyas-framework-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-mvc/eyas-framework-mvc.iml" filepath="$PROJECT_DIR$/eyas-framework-mvc/eyas-framework-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-mybatis-plus/eyas-framework-mybatis-plus.iml" filepath="$PROJECT_DIR$/eyas-framework-mybatis-plus/eyas-framework-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-redis/eyas-framework-redis.iml" filepath="$PROJECT_DIR$/eyas-framework-redis/eyas-framework-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-rpc/eyas-framework-rpc.iml" filepath="$PROJECT_DIR$/eyas-framework-rpc/eyas-framework-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-service/eyas-framework-service.iml" filepath="$PROJECT_DIR$/eyas-framework-service/eyas-framework-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-util/eyas-framework-util.iml" filepath="$PROJECT_DIR$/eyas-framework-util/eyas-framework-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eyas-framework-web/eyas-framework-web.iml" filepath="$PROJECT_DIR$/eyas-framework-web/eyas-framework-web.iml" />
+    </modules>
+  </component>
+</project>

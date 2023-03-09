@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: eyas-framework
+    simple: eyas-framework

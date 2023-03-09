@@ -1,0 +1,55 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://118.25.60.227/master?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    username: root
+    password: 123
+
+
+  rabbitmq:
+    host: 118.25.60.227
+    port: 15672
+    username: admin
+    password: admin
+    publisher-confirms: true
+    connection-timeout:
+    virtual-host: my_vhost
+    listener:
+      simple:
+        concurrency: 5
+        max-concurrency: 15
+        acknowledge-mode: manual
+        prefetch: 1
+
+  redis:
+    database: 0
+    password: eyasAdmin
+    # 单节点模式
+    host: 129.28.186.196
+    port: 8803
+    timeout: 3000
+    # redisson配置文件路径
+    redisson:
+      file: classpath:redission/redission-daily.yml
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 148.70.251.214:8848
+        namespace: 984ff3e6-ad33-44b5-aae2-f811738d2a4a #线上配置
+
+
+xxl:
+  job:
+    admin:
+      addresses: 118.25.60.227:8803/xxl-job-admin
+    executor:
+      appname: eyas-framework
+      ip: 118.25.60.227
+      port: 8999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: -1
+      logconfig:
+    accessToken:

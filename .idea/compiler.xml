@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eyas-framework-mq" />
+        <module name="eyas-framework-service" />
+        <module name="eyas-framework-cache" />
+        <module name="eyas-framework-rpc" />
+        <module name="eyas-framework-config" />
+        <module name="eyas-framework-web" />
+        <module name="eyas-framework-mybatis-plus" />
+        <module name="eyas-framework-redis" />
+        <module name="eyas-framework-util" />
+        <module name="eyas-framework-common" />
+        <module name="eyas-framework-mvc" />
+        <module name="eyas-framework-job" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eyas-framework" target="1.8" />
+      <module name="eyas-framework-cache" target="1.8" />
+      <module name="eyas-framework-common" target="1.8" />
+      <module name="eyas-framework-config" target="1.8" />
+      <module name="eyas-framework-dependencies" target="1.8" />
+      <module name="eyas-framework-job" target="1.8" />
+      <module name="eyas-framework-mq" target="1.8" />
+      <module name="eyas-framework-mvc" target="1.8" />
+      <module name="eyas-framework-mybatis-plus" target="1.8" />
+      <module name="eyas-framework-redis" target="1.8" />
+      <module name="eyas-framework-rpc" target="1.8" />
+      <module name="eyas-framework-service" target="1.8" />
+      <module name="eyas-framework-util" target="1.8" />
+      <module name="eyas-framework-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eyas-framework-web" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.3.RELEASE</version>
+        <relativePath />
+    </parent>
+    <groupId>com.eyas</groupId>
+    <artifactId>eyas-framework-web</artifactId>
+    <version>0.0.4-SNAPSHOT</version>
+    <name>eyas-framework-web</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <spring.cloud.alibaba.version>2.1.2.RELEASE</spring.cloud.alibaba.version>
+        <spring.cloud.version>Greenwich.RELEASE</spring.cloud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--alibaba-nacos-cloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring.cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring.cloud.alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.mybatis.spring.boot</groupId>-->
+<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--            <version>2.0.0</version>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-service</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-job</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-mq</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-redis</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-mvc</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-config</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.eyas</groupId>
+            <artifactId>eyas-framework-mybatis-plus</artifactId>
+            <version>0.0.4-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>bcprov-jdk15on</artifactId>
+                    <groupId>org.bouncycastle</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>fastjson</artifactId>
+                    <groupId>com.alibaba</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>fastjson</artifactId>
+                    <groupId>com.alibaba</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!--- 解决流控链路不生效的问题-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-web-servlet</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
